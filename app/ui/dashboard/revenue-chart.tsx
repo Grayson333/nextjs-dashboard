@@ -18,6 +18,7 @@ export default async function RevenueChart( // 使组件异步，删除 props
   // }
 ) {
   const revenue = await fetchRevenue(); // 在组件内获取数据
+  console.log('WKS-9999');
 
   const chartHeight = 350;
   // NOTE: Uncomment this code in Chapter 7
